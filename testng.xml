@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="example suite 1" verbose="1" >
+<suite parallel = "classes"  name = "suite" thread-count ="2" >
+
   <test name="Regression suite 1" >
     <classes>
-      <class name="demo.Demo"/>
+      <class name="learnTestNG.EasyCoding"/>
+         <class name="learnTestNG.selectCountry"/>
     </classes>
  </test>
 </suite>

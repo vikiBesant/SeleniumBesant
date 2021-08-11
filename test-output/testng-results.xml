@@ -1,40 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12351" started-at="2020-11-10T16:20:25 IST" finished-at="2020-11-10T16:20:37 IST">
+  <suite started-at="2021-08-10T11:15:48 IST" name="Default suite" finished-at="2021-08-10T11:15:57 IST" duration-ms="8946">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestHonda@2bbf4b8b]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="12351" started-at="2020-11-10T16:20:25 IST" finished-at="2020-11-10T16:20:37 IST">
-      <class name="runner.TestHonda">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestHonda@2bbf4b8b]" name="setUpClass" is-config="true" duration-ms="178" started-at="2020-11-10T16:20:25 IST" finished-at="2020-11-10T16:20:25 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestHonda@2bbf4b8b]" name="runScenario" duration-ms="12049" started-at="2020-11-10T16:20:25 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-11-10T16:20:37 IST">
+    <test started-at="2021-08-10T11:15:48 IST" name="Default test" finished-at="2021-08-10T11:15:57 IST" duration-ms="8946">
+      <class name="learnExcel.ExcelLearning">
+        <test-method signature="demoSite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:learnExcel.ExcelLearning@647fd8ce]" started-at="2021-08-10T11:15:48 IST" name="demoSite" data-provider="testdata" finished-at="2021-08-10T11:15:53 IST" duration-ms="4601" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Honda Website Automation"]]>
+                <![CDATA[UserName]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Automate Honda Website"]]>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://demo.guru99.com/v1/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestHonda@2bbf4b8b]" name="tearDownClass" is-config="true" duration-ms="16" started-at="2020-11-10T16:20:37 IST" finished-at="2020-11-10T16:20:37 IST">
+        </test-method> <!-- demoSite -->
+        <test-method signature="demoSite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:learnExcel.ExcelLearning@647fd8ce]" started-at="2021-08-10T11:15:53 IST" name="demoSite" data-provider="testdata" finished-at="2021-08-10T11:15:57 IST" duration-ms="3672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://demo.guru99.com/v1/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- runner.TestHonda -->
+        </test-method> <!-- demoSite -->
+      </class> <!-- learnExcel.ExcelLearning -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
